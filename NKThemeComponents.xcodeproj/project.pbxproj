@@ -13,6 +13,9 @@
 		9C207B9C1C7C3783003B5955 /* NKThemeComponents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C207B9A1C7C3783003B5955 /* NKThemeComponents.xcdatamodeld */; };
 		9C207B9E1C7C3783003B5955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C207B9D1C7C3783003B5955 /* Assets.xcassets */; };
 		9C207BA11C7C3783003B5955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C207B9F1C7C3783003B5955 /* LaunchScreen.storyboard */; };
+		9CCC45761C8043C900DC8506 /* NKThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC45751C8043C900DC8506 /* NKThemeExtension.swift */; };
+		9CCC45791C8043F500DC8506 /* NKThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC45781C8043F500DC8506 /* NKThemeManager.swift */; };
+		9CCC457B1C80441900DC8506 /* NKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC457A1C80441900DC8506 /* NKView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9C207B9D1C7C3783003B5955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C207BA01C7C3783003B5955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C207BA21C7C3783003B5955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CCC45751C8043C900DC8506 /* NKThemeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKThemeExtension.swift; path = Components/Theme/NKThemeExtension.swift; sourceTree = "<group>"; };
+		9CCC45781C8043F500DC8506 /* NKThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKThemeManager.swift; path = Components/Theme/NKThemeManager.swift; sourceTree = "<group>"; };
+		9CCC457A1C80441900DC8506 /* NKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKView.swift; path = Components/Theme/NKView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		9C207B921C7C3782003B5955 /* NKThemeComponents */ = {
 			isa = PBXGroup;
 			children = (
+				9CCC45731C80436B00DC8506 /* Components */,
 				9C207B931C7C3782003B5955 /* AppDelegate.swift */,
 				9C207B951C7C3783003B5955 /* ViewController.swift */,
 				9C207B971C7C3783003B5955 /* Main.storyboard */,
@@ -65,6 +72,24 @@
 				9C207B9A1C7C3783003B5955 /* NKThemeComponents.xcdatamodeld */,
 			);
 			path = NKThemeComponents;
+			sourceTree = "<group>";
+		};
+		9CCC45731C80436B00DC8506 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9CCC45741C80438200DC8506 /* Theme */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		9CCC45741C80438200DC8506 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9CCC45751C8043C900DC8506 /* NKThemeExtension.swift */,
+				9CCC45781C8043F500DC8506 /* NKThemeManager.swift */,
+				9CCC457A1C80441900DC8506 /* NKView.swift */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +166,9 @@
 			files = (
 				9C207B9C1C7C3783003B5955 /* NKThemeComponents.xcdatamodeld in Sources */,
 				9C207B961C7C3783003B5955 /* ViewController.swift in Sources */,
+				9CCC45761C8043C900DC8506 /* NKThemeExtension.swift in Sources */,
+				9CCC457B1C80441900DC8506 /* NKView.swift in Sources */,
+				9CCC45791C8043F500DC8506 /* NKThemeManager.swift in Sources */,
 				9C207B941C7C3782003B5955 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +317,7 @@
 				9C207BA71C7C3783003B5955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
